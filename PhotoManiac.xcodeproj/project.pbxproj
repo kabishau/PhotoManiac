@@ -12,6 +12,10 @@
 		D4DD28C720DF397B004383BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4DD28C620DF397B004383BB /* Assets.xcassets */; };
 		D4DD28CA20DF397B004383BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4DD28C820DF397B004383BB /* LaunchScreen.storyboard */; };
 		D4DD28D220DF39F5004383BB /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DD28D120DF39F5004383BB /* Photo.swift */; };
+		D4DD28D820DF551F004383BB /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DD28D720DF551F004383BB /* PhotoCell.swift */; };
+		D4DD28DA20DF6077004383BB /* PhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DD28D920DF6077004383BB /* PhotoCollectionViewController.swift */; };
+		D4DD28DC20E0379D004383BB /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DD28DB20E0379D004383BB /* SectionHeaderView.swift */; };
+		D4DD290020E08EAA004383BB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DD28FF20E08EAA004383BB /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		D4DD28C920DF397B004383BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4DD28CB20DF397B004383BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4DD28D120DF39F5004383BB /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		D4DD28D720DF551F004383BB /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		D4DD28D920DF6077004383BB /* PhotoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewController.swift; sourceTree = "<group>"; };
+		D4DD28DB20E0379D004383BB /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
+		D4DD28FF20E08EAA004383BB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,8 @@
 		D4DD28D420DF4A08004383BB /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D4DD28D720DF551F004383BB /* PhotoCell.swift */,
+				D4DD28DB20E0379D004383BB /* SectionHeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -92,6 +102,8 @@
 		D4DD28D620DF4A1F004383BB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D4DD28D920DF6077004383BB /* PhotoCollectionViewController.swift */,
+				D4DD28FF20E08EAA004383BB /* DetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -168,7 +180,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4DD28D220DF39F5004383BB /* Photo.swift in Sources */,
+				D4DD28D820DF551F004383BB /* PhotoCell.swift in Sources */,
+				D4DD28DC20E0379D004383BB /* SectionHeaderView.swift in Sources */,
+				D4DD290020E08EAA004383BB /* DetailViewController.swift in Sources */,
 				D4DD28C020DF3979004383BB /* AppDelegate.swift in Sources */,
+				D4DD28DA20DF6077004383BB /* PhotoCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,7 +330,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7L32597M73;
-				INFOPLIST_FILE = PhotoManiac/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PhotoManiac/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +348,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7L32597M73;
-				INFOPLIST_FILE = PhotoManiac/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PhotoManiac/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
